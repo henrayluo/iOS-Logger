@@ -124,7 +124,7 @@
     }
     else {
         
-        [log writeToFile:logFilePath atomically:NO encoding:NSStringEncodingConversionAllowLossy error:nil];
+        [log writeToFile:logFilePath atomically:YES encoding:NSUTF8StringEncoding error:nil];
     }
 }
 
